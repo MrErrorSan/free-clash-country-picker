@@ -7,7 +7,7 @@ another one.
 
 **Quick start:** add this URL as a Remote profile in Clash Verge Rev, FlClash or any
 other mihomo-based client, then pick a country in the **Country** group
-([full setup](#setup-windows)):
+([full setup](#setup)):
 
 ```
 https://raw.githubusercontent.com/MrErrorSan/free-clash-country-picker/main/clash/profile.yaml
@@ -52,10 +52,14 @@ speed-test icon on that group in **Proxies**.
 
 To see where you appear: https://www.cloudflare.com/cdn-cgi/trace (`loc=`).
 
-## Setup (Windows)
+## Setup
+
+Steps are for Clash Verge Rev (Windows, macOS, Linux). Other mihomo clients such as
+[FlClash](https://github.com/chen08209/FlClash) (also on Android) take the same Remote
+URL; their menus differ.
 
 1. Install [Clash Verge Rev](https://github.com/clash-verge-rev/clash-verge-rev/releases)
-   (`…_x64-setup.exe`).
+   from its releases page. Pick the file for your OS.
 2. **Profiles** → **New** → Type **Remote**, and paste this URL:
 
    ```
@@ -66,15 +70,15 @@ To see where you appear: https://www.cloudflare.com/cdn-cgi/trace (`loc=`).
    it picks up the [automatic refreshes](#automatic-refresh). Save, then click the card
    to make it active. The first load downloads ~58 lists, so give it ~20 s.
 
-   Prefer not to depend on GitHub? Use Type **Local** and pick `clash\profile.yaml`
+   Prefer not to depend on GitHub? Use Type **Local** and pick `clash/profile.yaml`
    from a clone instead. A local profile doesn't auto-update.
 3. **Proxies** → **Country** → click a country. Countries near you usually have the
    lowest ping.
 4. Turn on **System Proxy**. That covers browsers and most apps.
 5. Optional: turn on **TUN Mode** to route every app (games, Discord) through it.
-   Clash Verge asks to install its Service Mode once (admin prompt).
+   Clash Verge asks to install its Service Mode once, which needs admin rights.
 
-To turn it off, switch off System Proxy / TUN, or Quit from the tray.
+To turn it off, switch off System Proxy / TUN, or quit from the system tray / menu bar.
 
 ### Optional: keep your own country's sites direct
 
@@ -88,11 +92,11 @@ DOMAIN-SUFFIX,xx,DIRECT
 GEOIP,XX,DIRECT
 ```
 
-These rules stay on your PC and survive profile updates. If you regenerate the config
+These rules stay on your device and survive profile updates. If you regenerate the config
 yourself, you can set `HOME_COUNTRY` in the generator instead.
 
-**IDM / FDM** follow the Windows proxy by default. If one doesn't, use TUN Mode. Keep
-downloads to 4–8 connections each, because many parallel connections can overload a
+**Download managers** usually follow the system proxy. If one doesn't, use TUN Mode.
+Keep downloads to 4–8 connections each, because many parallel connections can overload a
 free server. **Cloudflare-protected sites** may show a captcha or block some free-server
 IPs. If that happens, switch server or country.
 
