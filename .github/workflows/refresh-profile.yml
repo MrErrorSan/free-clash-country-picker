@@ -1,0 +1,43 @@
+# Regenerates clash/project-v2.yaml from the vetted lists in tools/make_clash_config.py
+# and commits it if anything changed. Clash Verge picks it up via the Remote profile URL.
+name: Refresh profile
+
+on:
+  schedule:
+    - cron: "0 3 */3 * *"  # 03:00 UTC every 3rd day of the month
+  workflow_dispatch:       # "Run workflow" button in the Actions tab
+
+permissions:
+  contents: write
+
+concurrency:
+  group: refresh-profile
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - run: pip install pyyaml
+
+      # Exits non-zero if any list can't be fetched, so a partial profile is never committed.
+      - run: python -I tools/make_clash_config.py
+
+      - name: Commit if changed
+        run: |
+          if git diff --quiet -- clash/project-v2.yaml; then
+            echo "No change."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add clash/project-v2.yaml
+          git commit -m "Refresh profile ($(date -u +%F))"
+          git push

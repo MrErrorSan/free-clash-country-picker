@@ -1,0 +1,4 @@
+results/
+clash/countries.json
+__pycache__/
+*.pyc
