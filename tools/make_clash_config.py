@@ -195,7 +195,7 @@ def main():
     today = datetime.date.today().isoformat()
 
     y = [
-        f"# free-clash-country-picker: generated {today} by tools/make_clash_config.py. Re-run to refresh countries.",
+        f"# free-v2ray-clash-verge-config: generated {today} by tools/make_clash_config.py. Re-run to refresh countries.",
         "# Pick a country in the 'Country' group; each country group auto-uses its fastest server.",
         "mixed-port: 7897",
         "allow-lan: false",

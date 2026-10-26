@@ -1,16 +1,18 @@
-# Free Clash country picker
+# Free V2Ray config for Clash Verge: pick a country, get its fastest server
 
-A generator for a [mihomo](https://github.com/MetaCubeX/mihomo) (Clash Meta) config built
-from free, public V2Ray/Clash server lists. You pick a country and the config keeps you
-on the fastest working server in that country. If that server dies, it switches to
-another one.
+A free VPN-style profile for **Clash Verge Rev**, **FlClash** and other
+[mihomo](https://github.com/MetaCubeX/mihomo) (Clash Meta) clients. It's built from free,
+public V2Ray server lists (VLESS, VMess, Trojan, Shadowsocks, Hysteria2) and updated
+automatically. You pick a country and it keeps you on the fastest working server in
+that country. If that server dies, it switches to another one. ~50 countries, ~8,000
+servers.
 
 **Quick start:** add this URL as a Remote profile in Clash Verge Rev, FlClash or any
 other mihomo-based client, then pick a country in the **Country** group
 ([full setup](#setup)):
 
 ```
-https://raw.githubusercontent.com/MrErrorSan/free-clash-country-picker/main/clash/profile.yaml
+https://raw.githubusercontent.com/MrErrorSan/free-v2ray-clash-verge-config/main/clash/profile.yaml
 ```
 
 - `tools/make_clash_config.py`: fetches the lists and writes the config
@@ -63,7 +65,7 @@ URL; their menus differ.
 2. **Profiles** → **New** → Type **Remote**, and paste this URL:
 
    ```
-   https://raw.githubusercontent.com/MrErrorSan/free-clash-country-picker/main/clash/profile.yaml
+   https://raw.githubusercontent.com/MrErrorSan/free-v2ray-clash-verge-config/main/clash/profile.yaml
    ```
 
    In the profile's settings, set **Update Interval** to `1440` minutes (once a day), so
