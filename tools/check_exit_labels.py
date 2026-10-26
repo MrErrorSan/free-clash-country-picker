@@ -1,7 +1,7 @@
 """Per source: do servers that pass the latency probe carry real traffic, and is their
 country label true?
 
-Needs a mihomo instance already running clash/project-v2.yaml with
+Needs a mihomo instance already running clash/profile.yaml with
   mixed-port 17897 and external-controller 127.0.0.1:19097
 (the test instance used during development; never the live Clash Verge one), plus a
 select group named "probe" that uses every provider and is the MATCH target.

@@ -1,12 +1,20 @@
-# Project V: country picker for Clash Verge Rev
+# Free Clash country picker
 
 A generator for a [mihomo](https://github.com/MetaCubeX/mihomo) (Clash Meta) config built
 from free, public V2Ray/Clash server lists. You pick a country and the config keeps you
 on the fastest working server in that country. If that server dies, it switches to
 another one.
 
+**Quick start:** add this URL as a Remote profile in Clash Verge Rev, FlClash or any
+other mihomo-based client, then pick a country in the **Country** group
+([full setup](#setup-windows)):
+
+```
+https://raw.githubusercontent.com/MrErrorSan/free-clash-country-picker/main/clash/profile.yaml
+```
+
 - `tools/make_clash_config.py`: fetches the lists and writes the config
-- `clash/project-v2.yaml`: the generated config, ready to import
+- `clash/profile.yaml`: the generated config, ready to import
 - `.github/workflows/refresh-profile.yml`: regenerates the config every 3 days
 
 ## Disclosure
@@ -51,14 +59,14 @@ To see where you appear: https://www.cloudflare.com/cdn-cgi/trace (`loc=`).
 2. **Profiles** → **New** → Type **Remote**, and paste this URL:
 
    ```
-   https://raw.githubusercontent.com/MrErrorSan/project-v-clash/main/clash/project-v2.yaml
+   https://raw.githubusercontent.com/MrErrorSan/free-clash-country-picker/main/clash/profile.yaml
    ```
 
    In the profile's settings, set **Update Interval** to `1440` minutes (once a day), so
    it picks up the [automatic refreshes](#automatic-refresh). Save, then click the card
    to make it active. The first load downloads ~58 lists, so give it ~20 s.
 
-   Prefer not to depend on GitHub? Use Type **Local** and pick `clash\project-v2.yaml`
+   Prefer not to depend on GitHub? Use Type **Local** and pick `clash\profile.yaml`
    from a clone instead. A local profile doesn't auto-update.
 3. **Proxies** → **Country** → click a country. Countries near you usually have the
    lowest ping.
@@ -95,7 +103,7 @@ There are two levels of refresh, and neither needs you:
 - **Servers** inside each country: Clash Verge re-downloads the lists every 4 h.
 - **The profile itself** (which countries get a group, and in what order): the GitHub
   Action [`refresh-profile.yml`](.github/workflows/refresh-profile.yml) re-runs the
-  generator every 3 days and commits the new `clash/project-v2.yaml`. A Remote profile
+  generator every 3 days and commits the new `clash/profile.yaml`. A Remote profile
   picks that up on its next update. To refresh right away, open the **Actions** tab →
   *Refresh profile* → **Run workflow**, then click update on the profile card.
 
@@ -114,7 +122,7 @@ To regenerate by hand:
 python -I tools/make_clash_config.py
 ```
 
-Then commit and push `clash/project-v2.yaml`. With a Local profile, delete the old
+Then commit and push `clash/profile.yaml`. With a Local profile, delete the old
 profile in Clash Verge and import the file again, because Clash Verge keeps its own copy.
 
 Settings at the top of the script:
@@ -147,3 +155,8 @@ Findings from 2026-10-25 (26 lists tested):
 - **One bad entry makes mihomo drop the whole list.** For example, F0rc3Run's link list
   has a Shadowsocks server with a cipher mihomo rejects, so its `clash.yaml` is used
   instead. Having several sources per country guards against this.
+
+## License
+
+[MIT](LICENSE) for the code and the generated config in this repo. The server lists it
+points to, and the servers in them, belong to their owners and come under their own terms.

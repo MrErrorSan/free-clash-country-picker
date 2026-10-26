@@ -1,7 +1,7 @@
 """Generate a mihomo (Clash Meta) config with one auto-fastest group per country.
 
 Usage:  python -I tools/make_clash_config.py
-Output: clash/project-v2.yaml  (import into Clash Verge Rev / FlClash)
+Output: clash/profile.yaml  (import into Clash Verge Rev / FlClash)
         clash/countries.json   (per-country server counts this run saw)
 
 Sources were picked with tools/evaluate_sources.py and tools/check_exit_labels.py.
@@ -195,7 +195,7 @@ def main():
     today = datetime.date.today().isoformat()
 
     y = [
-        f"# Project V v2: generated {today} by tools/make_clash_config.py. Re-run to refresh countries.",
+        f"# free-clash-country-picker: generated {today} by tools/make_clash_config.py. Re-run to refresh countries.",
         "# Pick a country in the 'Country' group; each country group auto-uses its fastest server.",
         "mixed-port: 7897",
         "allow-lan: false",
@@ -281,7 +281,7 @@ def main():
     y += ["  - MATCH,Country", ""]
 
     os.makedirs(OUT_DIR, exist_ok=True)
-    with open(os.path.join(OUT_DIR, "project-v2.yaml"), "w", encoding="utf-8", newline="\n") as f:
+    with open(os.path.join(OUT_DIR, "profile.yaml"), "w", encoding="utf-8", newline="\n") as f:
         f.write("\n".join(y))
     with open(os.path.join(OUT_DIR, "countries.json"), "w", encoding="utf-8") as f:
         json.dump({"generated": today, "servers_per_subscription": per_sub,
@@ -292,7 +292,7 @@ def main():
     print("servers per list:", per_sub)
     print(f"Au1rxx exit-verified files: {len(au)} countries, {sum(au.values())} servers")
     print(f"{len(countries)} country groups:", ", ".join(f"{NAMES[c]} {n}" for c, n in countries))
-    print("written:", os.path.join(OUT_DIR, "project-v2.yaml"))
+    print("written:", os.path.join(OUT_DIR, "profile.yaml"))
     if len(countries) < MIN_COUNTRIES:
         failed.append(f"only {len(countries)} countries")
     if failed:  # countries are missing; the scheduled update must not publish this

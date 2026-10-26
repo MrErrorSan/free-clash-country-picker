@@ -1,4 +1,4 @@
-# Project V v2: generated 2026-10-26 by tools/make_clash_config.py. Re-run to refresh countries.
+# free-clash-country-picker: generated 2026-10-26 by tools/make_clash_config.py. Re-run to refresh countries.
 # Pick a country in the 'Country' group; each country group auto-uses its fastest server.
 mixed-port: 7897
 allow-lan: false
