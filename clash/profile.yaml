@@ -1,4 +1,4 @@
-# free-v2ray-clash-verge-config: generated 2026-10-28 by tools/make_clash_config.py. Re-run to refresh countries.
+# free-v2ray-clash-verge-config: generated 2026-10-31 by tools/make_clash_config.py. Re-run to refresh countries.
 # Pick a country in the 'Country' group; each country group auto-uses its fastest server.
 mixed-port: 7897
 allow-lan: false
@@ -94,14 +94,6 @@ proxy-providers:
     exclude-filter: "(?i)profile-|subscription-|support-url|expire|traffic|criterion|median|LATEST-UPDATE"
     override:
       additional-prefix: "AM "
-  Au1rxx-AT:
-    type: http
-    url: "https://raw.githubusercontent.com/Au1rxx/free-vpn-subscriptions/main/output/country/AT/clash-0001.yaml"
-    path: ./providers/au1rxx-at.yaml
-    interval: 14400
-    exclude-filter: "(?i)profile-|subscription-|support-url|expire|traffic|criterion|median|LATEST-UPDATE"
-    override:
-      additional-prefix: "AT "
   Au1rxx-AU:
     type: http
     url: "https://raw.githubusercontent.com/Au1rxx/free-vpn-subscriptions/main/output/country/AU/clash-0001.yaml"
@@ -110,14 +102,6 @@ proxy-providers:
     exclude-filter: "(?i)profile-|subscription-|support-url|expire|traffic|criterion|median|LATEST-UPDATE"
     override:
       additional-prefix: "AU "
-  Au1rxx-AZ:
-    type: http
-    url: "https://raw.githubusercontent.com/Au1rxx/free-vpn-subscriptions/main/output/country/AZ/clash-0001.yaml"
-    path: ./providers/au1rxx-az.yaml
-    interval: 14400
-    exclude-filter: "(?i)profile-|subscription-|support-url|expire|traffic|criterion|median|LATEST-UPDATE"
-    override:
-      additional-prefix: "AZ "
   Au1rxx-BE:
     type: http
     url: "https://raw.githubusercontent.com/Au1rxx/free-vpn-subscriptions/main/output/country/BE/clash-0001.yaml"
@@ -166,6 +150,14 @@ proxy-providers:
     exclude-filter: "(?i)profile-|subscription-|support-url|expire|traffic|criterion|median|LATEST-UPDATE"
     override:
       additional-prefix: "CH "
+  Au1rxx-CL:
+    type: http
+    url: "https://raw.githubusercontent.com/Au1rxx/free-vpn-subscriptions/main/output/country/CL/clash-0001.yaml"
+    path: ./providers/au1rxx-cl.yaml
+    interval: 14400
+    exclude-filter: "(?i)profile-|subscription-|support-url|expire|traffic|criterion|median|LATEST-UPDATE"
+    override:
+      additional-prefix: "CL "
   Au1rxx-CN:
     type: http
     url: "https://raw.githubusercontent.com/Au1rxx/free-vpn-subscriptions/main/output/country/CN/clash-0001.yaml"
@@ -254,14 +246,6 @@ proxy-providers:
     exclude-filter: "(?i)profile-|subscription-|support-url|expire|traffic|criterion|median|LATEST-UPDATE"
     override:
       additional-prefix: "HK "
-  Au1rxx-ID:
-    type: http
-    url: "https://raw.githubusercontent.com/Au1rxx/free-vpn-subscriptions/main/output/country/ID/clash-0001.yaml"
-    path: ./providers/au1rxx-id.yaml
-    interval: 14400
-    exclude-filter: "(?i)profile-|subscription-|support-url|expire|traffic|criterion|median|LATEST-UPDATE"
-    override:
-      additional-prefix: "ID "
   Au1rxx-IE:
     type: http
     url: "https://raw.githubusercontent.com/Au1rxx/free-vpn-subscriptions/main/output/country/IE/clash-0001.yaml"
@@ -366,22 +350,6 @@ proxy-providers:
     exclude-filter: "(?i)profile-|subscription-|support-url|expire|traffic|criterion|median|LATEST-UPDATE"
     override:
       additional-prefix: "NL "
-  Au1rxx-NZ:
-    type: http
-    url: "https://raw.githubusercontent.com/Au1rxx/free-vpn-subscriptions/main/output/country/NZ/clash-0001.yaml"
-    path: ./providers/au1rxx-nz.yaml
-    interval: 14400
-    exclude-filter: "(?i)profile-|subscription-|support-url|expire|traffic|criterion|median|LATEST-UPDATE"
-    override:
-      additional-prefix: "NZ "
-  Au1rxx-PH:
-    type: http
-    url: "https://raw.githubusercontent.com/Au1rxx/free-vpn-subscriptions/main/output/country/PH/clash-0001.yaml"
-    path: ./providers/au1rxx-ph.yaml
-    interval: 14400
-    exclude-filter: "(?i)profile-|subscription-|support-url|expire|traffic|criterion|median|LATEST-UPDATE"
-    override:
-      additional-prefix: "PH "
   Au1rxx-PL:
     type: http
     url: "https://raw.githubusercontent.com/Au1rxx/free-vpn-subscriptions/main/output/country/PL/clash-0001.yaml"
@@ -390,14 +358,6 @@ proxy-providers:
     exclude-filter: "(?i)profile-|subscription-|support-url|expire|traffic|criterion|median|LATEST-UPDATE"
     override:
       additional-prefix: "PL "
-  Au1rxx-PT:
-    type: http
-    url: "https://raw.githubusercontent.com/Au1rxx/free-vpn-subscriptions/main/output/country/PT/clash-0001.yaml"
-    path: ./providers/au1rxx-pt.yaml
-    interval: 14400
-    exclude-filter: "(?i)profile-|subscription-|support-url|expire|traffic|criterion|median|LATEST-UPDATE"
-    override:
-      additional-prefix: "PT "
   Au1rxx-RO:
     type: http
     url: "https://raw.githubusercontent.com/Au1rxx/free-vpn-subscriptions/main/output/country/RO/clash-0001.yaml"
@@ -406,14 +366,6 @@ proxy-providers:
     exclude-filter: "(?i)profile-|subscription-|support-url|expire|traffic|criterion|median|LATEST-UPDATE"
     override:
       additional-prefix: "RO "
-  Au1rxx-RS:
-    type: http
-    url: "https://raw.githubusercontent.com/Au1rxx/free-vpn-subscriptions/main/output/country/RS/clash-0001.yaml"
-    path: ./providers/au1rxx-rs.yaml
-    interval: 14400
-    exclude-filter: "(?i)profile-|subscription-|support-url|expire|traffic|criterion|median|LATEST-UPDATE"
-    override:
-      additional-prefix: "RS "
   Au1rxx-RU:
     type: http
     url: "https://raw.githubusercontent.com/Au1rxx/free-vpn-subscriptions/main/output/country/RU/clash-0001.yaml"
@@ -510,52 +462,46 @@ proxy-groups:
       - "Canada"
       - "India"
       - "United Kingdom"
-      - "Finland"
       - "South Korea"
       - "Poland"
+      - "Finland"
       - "Italy"
       - "Spain"
       - "Russia"
-      - "Australia"
-      - "Kazakhstan"
       - "Belarus"
-      - "Thailand"
       - "Switzerland"
-      - "Turkey"
-      - "Romania"
+      - "Kazakhstan"
+      - "Australia"
       - "Taiwan"
-      - "United Arab Emirates"
-      - "Sweden"
-      - "Armenia"
+      - "Romania"
+      - "Turkey"
       - "Latvia"
-      - "Bulgaria"
-      - "Estonia"
-      - "Israel"
-      - "Czechia"
-      - "Malaysia"
-      - "Austria"
+      - "Sweden"
+      - "United Arab Emirates"
+      - "Armenia"
       - "Iran"
-      - "Ireland"
-      - "Brazil"
-      - "Serbia"
-      - "Lithuania"
-      - "Greece"
-      - "Mexico"
-      - "South Africa"
       - "China"
+      - "Czechia"
+      - "Estonia"
+      - "Malaysia"
+      - "Israel"
+      - "Bulgaria"
+      - "Vietnam"
+      - "Mexico"
+      - "Greece"
       - "Ukraine"
       - "Denmark"
-      - "Norway"
-      - "Vietnam"
-      - "Moldova"
-      - "Indonesia"
+      - "Brazil"
       - "Belgium"
-      - "Albania"
-      - "New Zealand"
-      - "Portugal"
+      - "South Africa"
+      - "Lithuania"
+      - "Austria"
+      - "Thailand"
       - "Chile"
-      - "Azerbaijan"
-      - "Philippines"
+      - "Albania"
+      - "Ireland"
+      - "Seychelles"
+      - "Norway"
       - "DIRECT"
   - name: "Fastest anywhere"
     type: url-test
@@ -677,17 +623,6 @@ proxy-groups:
     tolerance: 50
     max-failed-times: 3
     lazy: true
-  - name: "Finland"
-    type: url-test
-    use: [Rooster, Mahdi0024, Snakem982, PuddinCat, Radikal-fast, F0rc3Run, Mahdibland, AwesomeVPN, Au1rxx-FI]
-    filter: "🇫🇮|(^|[\\s\\-|\\[(])FI([\\s\\-|\\])/]|$)|^fi\\||(^|[\\s\\-|\\[(])Finland([\\s\\-|\\])/]|$)"
-    url: "https://www.gstatic.com/generate_204"
-    expected-status: 204
-    interval: 1800
-    timeout: 2000
-    tolerance: 50
-    max-failed-times: 3
-    lazy: true
   - name: "South Korea"
     type: url-test
     use: [Rooster, Mahdi0024, Snakem982, PuddinCat, Radikal-fast, F0rc3Run, Mahdibland, AwesomeVPN, Au1rxx-KR]
@@ -703,6 +638,17 @@ proxy-groups:
     type: url-test
     use: [Rooster, Mahdi0024, Snakem982, PuddinCat, Radikal-fast, F0rc3Run, Mahdibland, AwesomeVPN, Au1rxx-PL]
     filter: "🇵🇱|(^|[\\s\\-|\\[(])PL([\\s\\-|\\])/]|$)|^pl\\||(^|[\\s\\-|\\[(])Poland([\\s\\-|\\])/]|$)"
+    url: "https://www.gstatic.com/generate_204"
+    expected-status: 204
+    interval: 1800
+    timeout: 2000
+    tolerance: 50
+    max-failed-times: 3
+    lazy: true
+  - name: "Finland"
+    type: url-test
+    use: [Rooster, Mahdi0024, Snakem982, PuddinCat, Radikal-fast, F0rc3Run, Mahdibland, AwesomeVPN, Au1rxx-FI]
+    filter: "🇫🇮|(^|[\\s\\-|\\[(])FI([\\s\\-|\\])/]|$)|^fi\\||(^|[\\s\\-|\\[(])Finland([\\s\\-|\\])/]|$)"
     url: "https://www.gstatic.com/generate_204"
     expected-status: 204
     interval: 1800
@@ -743,43 +689,10 @@ proxy-groups:
     tolerance: 50
     max-failed-times: 3
     lazy: true
-  - name: "Australia"
-    type: url-test
-    use: [Rooster, Mahdi0024, Snakem982, PuddinCat, Radikal-fast, F0rc3Run, Mahdibland, AwesomeVPN, Au1rxx-AU]
-    filter: "🇦🇺|(^|[\\s\\-|\\[(])AU([\\s\\-|\\])/]|$)|^au\\||(^|[\\s\\-|\\[(])Australia([\\s\\-|\\])/]|$)"
-    url: "https://www.gstatic.com/generate_204"
-    expected-status: 204
-    interval: 1800
-    timeout: 2000
-    tolerance: 50
-    max-failed-times: 3
-    lazy: true
-  - name: "Kazakhstan"
-    type: url-test
-    use: [Rooster, Mahdi0024, Snakem982, PuddinCat, Radikal-fast, F0rc3Run, Mahdibland, AwesomeVPN, Au1rxx-KZ]
-    filter: "🇰🇿|(^|[\\s\\-|\\[(])KZ([\\s\\-|\\])/]|$)|^kz\\||(^|[\\s\\-|\\[(])Kazakhstan([\\s\\-|\\])/]|$)"
-    url: "https://www.gstatic.com/generate_204"
-    expected-status: 204
-    interval: 1800
-    timeout: 2000
-    tolerance: 50
-    max-failed-times: 3
-    lazy: true
   - name: "Belarus"
     type: url-test
     use: [Rooster, Mahdi0024, Snakem982, PuddinCat, Radikal-fast, F0rc3Run, Mahdibland, AwesomeVPN, Au1rxx-BY]
     filter: "🇧🇾|(^|[\\s\\-|\\[(])BY([\\s\\-|\\])/]|$)|^by\\||(^|[\\s\\-|\\[(])Belarus([\\s\\-|\\])/]|$)"
-    url: "https://www.gstatic.com/generate_204"
-    expected-status: 204
-    interval: 1800
-    timeout: 2000
-    tolerance: 50
-    max-failed-times: 3
-    lazy: true
-  - name: "Thailand"
-    type: url-test
-    use: [Rooster, Mahdi0024, Snakem982, PuddinCat, Radikal-fast, F0rc3Run, Mahdibland, AwesomeVPN, Au1rxx-TH]
-    filter: "🇹🇭|(^|[\\s\\-|\\[(])TH([\\s\\-|\\])/]|$)|^th\\||(^|[\\s\\-|\\[(])Thailand([\\s\\-|\\])/]|$)"
     url: "https://www.gstatic.com/generate_204"
     expected-status: 204
     interval: 1800
@@ -798,10 +711,10 @@ proxy-groups:
     tolerance: 50
     max-failed-times: 3
     lazy: true
-  - name: "Turkey"
+  - name: "Kazakhstan"
     type: url-test
-    use: [Rooster, Mahdi0024, Snakem982, PuddinCat, Radikal-fast, F0rc3Run, Mahdibland, AwesomeVPN, Au1rxx-TR]
-    filter: "🇹🇷|(^|[\\s\\-|\\[(])TR([\\s\\-|\\])/]|$)|^tr\\||(^|[\\s\\-|\\[(])Turkey([\\s\\-|\\])/]|$)"
+    use: [Rooster, Mahdi0024, Snakem982, PuddinCat, Radikal-fast, F0rc3Run, Mahdibland, AwesomeVPN, Au1rxx-KZ]
+    filter: "🇰🇿|(^|[\\s\\-|\\[(])KZ([\\s\\-|\\])/]|$)|^kz\\||(^|[\\s\\-|\\[(])Kazakhstan([\\s\\-|\\])/]|$)"
     url: "https://www.gstatic.com/generate_204"
     expected-status: 204
     interval: 1800
@@ -809,10 +722,10 @@ proxy-groups:
     tolerance: 50
     max-failed-times: 3
     lazy: true
-  - name: "Romania"
+  - name: "Australia"
     type: url-test
-    use: [Rooster, Mahdi0024, Snakem982, PuddinCat, Radikal-fast, F0rc3Run, Mahdibland, AwesomeVPN, Au1rxx-RO]
-    filter: "🇷🇴|(^|[\\s\\-|\\[(])RO([\\s\\-|\\])/]|$)|^ro\\||(^|[\\s\\-|\\[(])Romania([\\s\\-|\\])/]|$)"
+    use: [Rooster, Mahdi0024, Snakem982, PuddinCat, Radikal-fast, F0rc3Run, Mahdibland, AwesomeVPN, Au1rxx-AU]
+    filter: "🇦🇺|(^|[\\s\\-|\\[(])AU([\\s\\-|\\])/]|$)|^au\\||(^|[\\s\\-|\\[(])Australia([\\s\\-|\\])/]|$)"
     url: "https://www.gstatic.com/generate_204"
     expected-status: 204
     interval: 1800
@@ -831,10 +744,10 @@ proxy-groups:
     tolerance: 50
     max-failed-times: 3
     lazy: true
-  - name: "United Arab Emirates"
+  - name: "Romania"
     type: url-test
-    use: [Rooster, Mahdi0024, Snakem982, PuddinCat, Radikal-fast, F0rc3Run, Mahdibland, AwesomeVPN, Au1rxx-AE]
-    filter: "🇦🇪|(^|[\\s\\-|\\[(])AE([\\s\\-|\\])/]|$)|^ae\\||(^|[\\s\\-|\\[(])United\\ Arab\\ Emirates([\\s\\-|\\])/]|$)"
+    use: [Rooster, Mahdi0024, Snakem982, PuddinCat, Radikal-fast, F0rc3Run, Mahdibland, AwesomeVPN, Au1rxx-RO]
+    filter: "🇷🇴|(^|[\\s\\-|\\[(])RO([\\s\\-|\\])/]|$)|^ro\\||(^|[\\s\\-|\\[(])Romania([\\s\\-|\\])/]|$)"
     url: "https://www.gstatic.com/generate_204"
     expected-status: 204
     interval: 1800
@@ -842,21 +755,10 @@ proxy-groups:
     tolerance: 50
     max-failed-times: 3
     lazy: true
-  - name: "Sweden"
+  - name: "Turkey"
     type: url-test
-    use: [Rooster, Mahdi0024, Snakem982, PuddinCat, Radikal-fast, F0rc3Run, Mahdibland, AwesomeVPN, Au1rxx-SE]
-    filter: "🇸🇪|(^|[\\s\\-|\\[(])SE([\\s\\-|\\])/]|$)|^se\\||(^|[\\s\\-|\\[(])Sweden([\\s\\-|\\])/]|$)"
-    url: "https://www.gstatic.com/generate_204"
-    expected-status: 204
-    interval: 1800
-    timeout: 2000
-    tolerance: 50
-    max-failed-times: 3
-    lazy: true
-  - name: "Armenia"
-    type: url-test
-    use: [Rooster, Mahdi0024, Snakem982, PuddinCat, Radikal-fast, F0rc3Run, Mahdibland, AwesomeVPN, Au1rxx-AM]
-    filter: "🇦🇲|(^|[\\s\\-|\\[(])AM([\\s\\-|\\])/]|$)|^am\\||(^|[\\s\\-|\\[(])Armenia([\\s\\-|\\])/]|$)"
+    use: [Rooster, Mahdi0024, Snakem982, PuddinCat, Radikal-fast, F0rc3Run, Mahdibland, AwesomeVPN, Au1rxx-TR]
+    filter: "🇹🇷|(^|[\\s\\-|\\[(])TR([\\s\\-|\\])/]|$)|^tr\\||(^|[\\s\\-|\\[(])Turkey([\\s\\-|\\])/]|$)"
     url: "https://www.gstatic.com/generate_204"
     expected-status: 204
     interval: 1800
@@ -875,10 +777,10 @@ proxy-groups:
     tolerance: 50
     max-failed-times: 3
     lazy: true
-  - name: "Bulgaria"
+  - name: "Sweden"
     type: url-test
-    use: [Rooster, Mahdi0024, Snakem982, PuddinCat, Radikal-fast, F0rc3Run, Mahdibland, AwesomeVPN, Au1rxx-BG]
-    filter: "🇧🇬|(^|[\\s\\-|\\[(])BG([\\s\\-|\\])/]|$)|^bg\\||(^|[\\s\\-|\\[(])Bulgaria([\\s\\-|\\])/]|$)"
+    use: [Rooster, Mahdi0024, Snakem982, PuddinCat, Radikal-fast, F0rc3Run, Mahdibland, AwesomeVPN, Au1rxx-SE]
+    filter: "🇸🇪|(^|[\\s\\-|\\[(])SE([\\s\\-|\\])/]|$)|^se\\||(^|[\\s\\-|\\[(])Sweden([\\s\\-|\\])/]|$)"
     url: "https://www.gstatic.com/generate_204"
     expected-status: 204
     interval: 1800
@@ -886,10 +788,10 @@ proxy-groups:
     tolerance: 50
     max-failed-times: 3
     lazy: true
-  - name: "Estonia"
+  - name: "United Arab Emirates"
     type: url-test
-    use: [Rooster, Mahdi0024, Snakem982, PuddinCat, Radikal-fast, F0rc3Run, Mahdibland, AwesomeVPN, Au1rxx-EE]
-    filter: "🇪🇪|(^|[\\s\\-|\\[(])EE([\\s\\-|\\])/]|$)|^ee\\||(^|[\\s\\-|\\[(])Estonia([\\s\\-|\\])/]|$)"
+    use: [Rooster, Mahdi0024, Snakem982, PuddinCat, Radikal-fast, F0rc3Run, Mahdibland, AwesomeVPN, Au1rxx-AE]
+    filter: "🇦🇪|(^|[\\s\\-|\\[(])AE([\\s\\-|\\])/]|$)|^ae\\||(^|[\\s\\-|\\[(])United\\ Arab\\ Emirates([\\s\\-|\\])/]|$)"
     url: "https://www.gstatic.com/generate_204"
     expected-status: 204
     interval: 1800
@@ -897,43 +799,10 @@ proxy-groups:
     tolerance: 50
     max-failed-times: 3
     lazy: true
-  - name: "Israel"
+  - name: "Armenia"
     type: url-test
-    use: [Rooster, Mahdi0024, Snakem982, PuddinCat, Radikal-fast, F0rc3Run, Mahdibland, AwesomeVPN, Au1rxx-IL]
-    filter: "🇮🇱|(^|[\\s\\-|\\[(])IL([\\s\\-|\\])/]|$)|^il\\||(^|[\\s\\-|\\[(])Israel([\\s\\-|\\])/]|$)"
-    url: "https://www.gstatic.com/generate_204"
-    expected-status: 204
-    interval: 1800
-    timeout: 2000
-    tolerance: 50
-    max-failed-times: 3
-    lazy: true
-  - name: "Czechia"
-    type: url-test
-    use: [Rooster, Mahdi0024, Snakem982, PuddinCat, Radikal-fast, F0rc3Run, Mahdibland, AwesomeVPN, Au1rxx-CZ]
-    filter: "🇨🇿|(^|[\\s\\-|\\[(])CZ([\\s\\-|\\])/]|$)|^cz\\||(^|[\\s\\-|\\[(])Czechia([\\s\\-|\\])/]|$)"
-    url: "https://www.gstatic.com/generate_204"
-    expected-status: 204
-    interval: 1800
-    timeout: 2000
-    tolerance: 50
-    max-failed-times: 3
-    lazy: true
-  - name: "Malaysia"
-    type: url-test
-    use: [Rooster, Mahdi0024, Snakem982, PuddinCat, Radikal-fast, F0rc3Run, Mahdibland, AwesomeVPN, Au1rxx-MY]
-    filter: "🇲🇾|(^|[\\s\\-|\\[(])MY([\\s\\-|\\])/]|$)|^my\\||(^|[\\s\\-|\\[(])Malaysia([\\s\\-|\\])/]|$)"
-    url: "https://www.gstatic.com/generate_204"
-    expected-status: 204
-    interval: 1800
-    timeout: 2000
-    tolerance: 50
-    max-failed-times: 3
-    lazy: true
-  - name: "Austria"
-    type: url-test
-    use: [Rooster, Mahdi0024, Snakem982, PuddinCat, Radikal-fast, F0rc3Run, Mahdibland, AwesomeVPN, Au1rxx-AT]
-    filter: "🇦🇹|(^|[\\s\\-|\\[(])AT([\\s\\-|\\])/]|$)|^at\\||(^|[\\s\\-|\\[(])Austria([\\s\\-|\\])/]|$)"
+    use: [Rooster, Mahdi0024, Snakem982, PuddinCat, Radikal-fast, F0rc3Run, Mahdibland, AwesomeVPN, Au1rxx-AM]
+    filter: "🇦🇲|(^|[\\s\\-|\\[(])AM([\\s\\-|\\])/]|$)|^am\\||(^|[\\s\\-|\\[(])Armenia([\\s\\-|\\])/]|$)"
     url: "https://www.gstatic.com/generate_204"
     expected-status: 204
     interval: 1800
@@ -952,10 +821,10 @@ proxy-groups:
     tolerance: 50
     max-failed-times: 3
     lazy: true
-  - name: "Ireland"
+  - name: "China"
     type: url-test
-    use: [Rooster, Mahdi0024, Snakem982, PuddinCat, Radikal-fast, F0rc3Run, Mahdibland, AwesomeVPN, Au1rxx-IE]
-    filter: "🇮🇪|(^|[\\s\\-|\\[(])IE([\\s\\-|\\])/]|$)|^ie\\||(^|[\\s\\-|\\[(])Ireland([\\s\\-|\\])/]|$)"
+    use: [Rooster, Mahdi0024, Snakem982, PuddinCat, Radikal-fast, F0rc3Run, Mahdibland, AwesomeVPN, Au1rxx-CN]
+    filter: "🇨🇳|(^|[\\s\\-|\\[(])CN([\\s\\-|\\])/]|$)|^cn\\||(^|[\\s\\-|\\[(])China([\\s\\-|\\])/]|$)"
     url: "https://www.gstatic.com/generate_204"
     expected-status: 204
     interval: 1800
@@ -963,10 +832,10 @@ proxy-groups:
     tolerance: 50
     max-failed-times: 3
     lazy: true
-  - name: "Brazil"
+  - name: "Czechia"
     type: url-test
-    use: [Rooster, Mahdi0024, Snakem982, PuddinCat, Radikal-fast, F0rc3Run, Mahdibland, AwesomeVPN, Au1rxx-BR]
-    filter: "🇧🇷|(^|[\\s\\-|\\[(])BR([\\s\\-|\\])/]|$)|^br\\||(^|[\\s\\-|\\[(])Brazil([\\s\\-|\\])/]|$)"
+    use: [Rooster, Mahdi0024, Snakem982, PuddinCat, Radikal-fast, F0rc3Run, Mahdibland, AwesomeVPN, Au1rxx-CZ]
+    filter: "🇨🇿|(^|[\\s\\-|\\[(])CZ([\\s\\-|\\])/]|$)|^cz\\||(^|[\\s\\-|\\[(])Czechia([\\s\\-|\\])/]|$)"
     url: "https://www.gstatic.com/generate_204"
     expected-status: 204
     interval: 1800
@@ -974,10 +843,10 @@ proxy-groups:
     tolerance: 50
     max-failed-times: 3
     lazy: true
-  - name: "Serbia"
+  - name: "Estonia"
     type: url-test
-    use: [Rooster, Mahdi0024, Snakem982, PuddinCat, Radikal-fast, F0rc3Run, Mahdibland, AwesomeVPN, Au1rxx-RS]
-    filter: "🇷🇸|(^|[\\s\\-|\\[(])RS([\\s\\-|\\])/]|$)|^rs\\||(^|[\\s\\-|\\[(])Serbia([\\s\\-|\\])/]|$)"
+    use: [Rooster, Mahdi0024, Snakem982, PuddinCat, Radikal-fast, F0rc3Run, Mahdibland, AwesomeVPN, Au1rxx-EE]
+    filter: "🇪🇪|(^|[\\s\\-|\\[(])EE([\\s\\-|\\])/]|$)|^ee\\||(^|[\\s\\-|\\[(])Estonia([\\s\\-|\\])/]|$)"
     url: "https://www.gstatic.com/generate_204"
     expected-status: 204
     interval: 1800
@@ -985,10 +854,10 @@ proxy-groups:
     tolerance: 50
     max-failed-times: 3
     lazy: true
-  - name: "Lithuania"
+  - name: "Malaysia"
     type: url-test
-    use: [Rooster, Mahdi0024, Snakem982, PuddinCat, Radikal-fast, F0rc3Run, Mahdibland, AwesomeVPN, Au1rxx-LT]
-    filter: "🇱🇹|(^|[\\s\\-|\\[(])LT([\\s\\-|\\])/]|$)|^lt\\||(^|[\\s\\-|\\[(])Lithuania([\\s\\-|\\])/]|$)"
+    use: [Rooster, Mahdi0024, Snakem982, PuddinCat, Radikal-fast, F0rc3Run, Mahdibland, AwesomeVPN, Au1rxx-MY]
+    filter: "🇲🇾|(^|[\\s\\-|\\[(])MY([\\s\\-|\\])/]|$)|^my\\||(^|[\\s\\-|\\[(])Malaysia([\\s\\-|\\])/]|$)"
     url: "https://www.gstatic.com/generate_204"
     expected-status: 204
     interval: 1800
@@ -996,10 +865,32 @@ proxy-groups:
     tolerance: 50
     max-failed-times: 3
     lazy: true
-  - name: "Greece"
+  - name: "Israel"
     type: url-test
-    use: [Rooster, Mahdi0024, Snakem982, PuddinCat, Radikal-fast, F0rc3Run, Mahdibland, AwesomeVPN, Au1rxx-GR]
-    filter: "🇬🇷|(^|[\\s\\-|\\[(])GR([\\s\\-|\\])/]|$)|^gr\\||(^|[\\s\\-|\\[(])Greece([\\s\\-|\\])/]|$)"
+    use: [Rooster, Mahdi0024, Snakem982, PuddinCat, Radikal-fast, F0rc3Run, Mahdibland, AwesomeVPN, Au1rxx-IL]
+    filter: "🇮🇱|(^|[\\s\\-|\\[(])IL([\\s\\-|\\])/]|$)|^il\\||(^|[\\s\\-|\\[(])Israel([\\s\\-|\\])/]|$)"
+    url: "https://www.gstatic.com/generate_204"
+    expected-status: 204
+    interval: 1800
+    timeout: 2000
+    tolerance: 50
+    max-failed-times: 3
+    lazy: true
+  - name: "Bulgaria"
+    type: url-test
+    use: [Rooster, Mahdi0024, Snakem982, PuddinCat, Radikal-fast, F0rc3Run, Mahdibland, AwesomeVPN, Au1rxx-BG]
+    filter: "🇧🇬|(^|[\\s\\-|\\[(])BG([\\s\\-|\\])/]|$)|^bg\\||(^|[\\s\\-|\\[(])Bulgaria([\\s\\-|\\])/]|$)"
+    url: "https://www.gstatic.com/generate_204"
+    expected-status: 204
+    interval: 1800
+    timeout: 2000
+    tolerance: 50
+    max-failed-times: 3
+    lazy: true
+  - name: "Vietnam"
+    type: url-test
+    use: [Rooster, Mahdi0024, Snakem982, PuddinCat, Radikal-fast, F0rc3Run, Mahdibland, AwesomeVPN, Au1rxx-VN]
+    filter: "🇻🇳|(^|[\\s\\-|\\[(])VN([\\s\\-|\\])/]|$)|^vn\\||(^|[\\s\\-|\\[(])Vietnam([\\s\\-|\\])/]|$)"
     url: "https://www.gstatic.com/generate_204"
     expected-status: 204
     interval: 1800
@@ -1018,21 +909,10 @@ proxy-groups:
     tolerance: 50
     max-failed-times: 3
     lazy: true
-  - name: "South Africa"
+  - name: "Greece"
     type: url-test
-    use: [Rooster, Mahdi0024, Snakem982, PuddinCat, Radikal-fast, F0rc3Run, Mahdibland, AwesomeVPN, Au1rxx-ZA]
-    filter: "🇿🇦|(^|[\\s\\-|\\[(])ZA([\\s\\-|\\])/]|$)|^za\\||(^|[\\s\\-|\\[(])South\\ Africa([\\s\\-|\\])/]|$)"
-    url: "https://www.gstatic.com/generate_204"
-    expected-status: 204
-    interval: 1800
-    timeout: 2000
-    tolerance: 50
-    max-failed-times: 3
-    lazy: true
-  - name: "China"
-    type: url-test
-    use: [Rooster, Mahdi0024, Snakem982, PuddinCat, Radikal-fast, F0rc3Run, Mahdibland, AwesomeVPN, Au1rxx-CN]
-    filter: "🇨🇳|(^|[\\s\\-|\\[(])CN([\\s\\-|\\])/]|$)|^cn\\||(^|[\\s\\-|\\[(])China([\\s\\-|\\])/]|$)"
+    use: [Rooster, Mahdi0024, Snakem982, PuddinCat, Radikal-fast, F0rc3Run, Mahdibland, AwesomeVPN, Au1rxx-GR]
+    filter: "🇬🇷|(^|[\\s\\-|\\[(])GR([\\s\\-|\\])/]|$)|^gr\\||(^|[\\s\\-|\\[(])Greece([\\s\\-|\\])/]|$)"
     url: "https://www.gstatic.com/generate_204"
     expected-status: 204
     interval: 1800
@@ -1062,43 +942,10 @@ proxy-groups:
     tolerance: 50
     max-failed-times: 3
     lazy: true
-  - name: "Norway"
+  - name: "Brazil"
     type: url-test
-    use: [Rooster, Mahdi0024, Snakem982, PuddinCat, Radikal-fast, F0rc3Run, Mahdibland, AwesomeVPN]
-    filter: "🇳🇴|(^|[\\s\\-|\\[(])NO([\\s\\-|\\])/]|$)|^no\\||(^|[\\s\\-|\\[(])Norway([\\s\\-|\\])/]|$)"
-    url: "https://www.gstatic.com/generate_204"
-    expected-status: 204
-    interval: 1800
-    timeout: 2000
-    tolerance: 50
-    max-failed-times: 3
-    lazy: true
-  - name: "Vietnam"
-    type: url-test
-    use: [Rooster, Mahdi0024, Snakem982, PuddinCat, Radikal-fast, F0rc3Run, Mahdibland, AwesomeVPN, Au1rxx-VN]
-    filter: "🇻🇳|(^|[\\s\\-|\\[(])VN([\\s\\-|\\])/]|$)|^vn\\||(^|[\\s\\-|\\[(])Vietnam([\\s\\-|\\])/]|$)"
-    url: "https://www.gstatic.com/generate_204"
-    expected-status: 204
-    interval: 1800
-    timeout: 2000
-    tolerance: 50
-    max-failed-times: 3
-    lazy: true
-  - name: "Moldova"
-    type: url-test
-    use: [Rooster, Mahdi0024, Snakem982, PuddinCat, Radikal-fast, F0rc3Run, Mahdibland, AwesomeVPN]
-    filter: "🇲🇩|(^|[\\s\\-|\\[(])MD([\\s\\-|\\])/]|$)|^md\\||(^|[\\s\\-|\\[(])Moldova([\\s\\-|\\])/]|$)"
-    url: "https://www.gstatic.com/generate_204"
-    expected-status: 204
-    interval: 1800
-    timeout: 2000
-    tolerance: 50
-    max-failed-times: 3
-    lazy: true
-  - name: "Indonesia"
-    type: url-test
-    use: [Rooster, Mahdi0024, Snakem982, PuddinCat, Radikal-fast, F0rc3Run, Mahdibland, AwesomeVPN, Au1rxx-ID]
-    filter: "🇮🇩|(^|[\\s\\-|\\[(])ID([\\s\\-|\\])/]|$)|^id\\||(^|[\\s\\-|\\[(])Indonesia([\\s\\-|\\])/]|$)"
+    use: [Rooster, Mahdi0024, Snakem982, PuddinCat, Radikal-fast, F0rc3Run, Mahdibland, AwesomeVPN, Au1rxx-BR]
+    filter: "🇧🇷|(^|[\\s\\-|\\[(])BR([\\s\\-|\\])/]|$)|^br\\||(^|[\\s\\-|\\[(])Brazil([\\s\\-|\\])/]|$)"
     url: "https://www.gstatic.com/generate_204"
     expected-status: 204
     interval: 1800
@@ -1117,6 +964,61 @@ proxy-groups:
     tolerance: 50
     max-failed-times: 3
     lazy: true
+  - name: "South Africa"
+    type: url-test
+    use: [Rooster, Mahdi0024, Snakem982, PuddinCat, Radikal-fast, F0rc3Run, Mahdibland, AwesomeVPN, Au1rxx-ZA]
+    filter: "🇿🇦|(^|[\\s\\-|\\[(])ZA([\\s\\-|\\])/]|$)|^za\\||(^|[\\s\\-|\\[(])South\\ Africa([\\s\\-|\\])/]|$)"
+    url: "https://www.gstatic.com/generate_204"
+    expected-status: 204
+    interval: 1800
+    timeout: 2000
+    tolerance: 50
+    max-failed-times: 3
+    lazy: true
+  - name: "Lithuania"
+    type: url-test
+    use: [Rooster, Mahdi0024, Snakem982, PuddinCat, Radikal-fast, F0rc3Run, Mahdibland, AwesomeVPN, Au1rxx-LT]
+    filter: "🇱🇹|(^|[\\s\\-|\\[(])LT([\\s\\-|\\])/]|$)|^lt\\||(^|[\\s\\-|\\[(])Lithuania([\\s\\-|\\])/]|$)"
+    url: "https://www.gstatic.com/generate_204"
+    expected-status: 204
+    interval: 1800
+    timeout: 2000
+    tolerance: 50
+    max-failed-times: 3
+    lazy: true
+  - name: "Austria"
+    type: url-test
+    use: [Rooster, Mahdi0024, Snakem982, PuddinCat, Radikal-fast, F0rc3Run, Mahdibland, AwesomeVPN]
+    filter: "🇦🇹|(^|[\\s\\-|\\[(])AT([\\s\\-|\\])/]|$)|^at\\||(^|[\\s\\-|\\[(])Austria([\\s\\-|\\])/]|$)"
+    url: "https://www.gstatic.com/generate_204"
+    expected-status: 204
+    interval: 1800
+    timeout: 2000
+    tolerance: 50
+    max-failed-times: 3
+    lazy: true
+  - name: "Thailand"
+    type: url-test
+    use: [Rooster, Mahdi0024, Snakem982, PuddinCat, Radikal-fast, F0rc3Run, Mahdibland, AwesomeVPN, Au1rxx-TH]
+    filter: "🇹🇭|(^|[\\s\\-|\\[(])TH([\\s\\-|\\])/]|$)|^th\\||(^|[\\s\\-|\\[(])Thailand([\\s\\-|\\])/]|$)"
+    url: "https://www.gstatic.com/generate_204"
+    expected-status: 204
+    interval: 1800
+    timeout: 2000
+    tolerance: 50
+    max-failed-times: 3
+    lazy: true
+  - name: "Chile"
+    type: url-test
+    use: [Rooster, Mahdi0024, Snakem982, PuddinCat, Radikal-fast, F0rc3Run, Mahdibland, AwesomeVPN, Au1rxx-CL]
+    filter: "🇨🇱|(^|[\\s\\-|\\[(])CL([\\s\\-|\\])/]|$)|^cl\\||(^|[\\s\\-|\\[(])Chile([\\s\\-|\\])/]|$)"
+    url: "https://www.gstatic.com/generate_204"
+    expected-status: 204
+    interval: 1800
+    timeout: 2000
+    tolerance: 50
+    max-failed-times: 3
+    lazy: true
   - name: "Albania"
     type: url-test
     use: [Rooster, Mahdi0024, Snakem982, PuddinCat, Radikal-fast, F0rc3Run, Mahdibland, AwesomeVPN, Au1rxx-AL]
@@ -1128,10 +1030,10 @@ proxy-groups:
     tolerance: 50
     max-failed-times: 3
     lazy: true
-  - name: "New Zealand"
+  - name: "Ireland"
     type: url-test
-    use: [Rooster, Mahdi0024, Snakem982, PuddinCat, Radikal-fast, F0rc3Run, Mahdibland, AwesomeVPN, Au1rxx-NZ]
-    filter: "🇳🇿|(^|[\\s\\-|\\[(])NZ([\\s\\-|\\])/]|$)|^nz\\||(^|[\\s\\-|\\[(])New\\ Zealand([\\s\\-|\\])/]|$)"
+    use: [Rooster, Mahdi0024, Snakem982, PuddinCat, Radikal-fast, F0rc3Run, Mahdibland, AwesomeVPN, Au1rxx-IE]
+    filter: "🇮🇪|(^|[\\s\\-|\\[(])IE([\\s\\-|\\])/]|$)|^ie\\||(^|[\\s\\-|\\[(])Ireland([\\s\\-|\\])/]|$)"
     url: "https://www.gstatic.com/generate_204"
     expected-status: 204
     interval: 1800
@@ -1139,21 +1041,10 @@ proxy-groups:
     tolerance: 50
     max-failed-times: 3
     lazy: true
-  - name: "Portugal"
-    type: url-test
-    use: [Rooster, Mahdi0024, Snakem982, PuddinCat, Radikal-fast, F0rc3Run, Mahdibland, AwesomeVPN, Au1rxx-PT]
-    filter: "🇵🇹|(^|[\\s\\-|\\[(])PT([\\s\\-|\\])/]|$)|^pt\\||(^|[\\s\\-|\\[(])Portugal([\\s\\-|\\])/]|$)"
-    url: "https://www.gstatic.com/generate_204"
-    expected-status: 204
-    interval: 1800
-    timeout: 2000
-    tolerance: 50
-    max-failed-times: 3
-    lazy: true
-  - name: "Chile"
+  - name: "Seychelles"
     type: url-test
     use: [Rooster, Mahdi0024, Snakem982, PuddinCat, Radikal-fast, F0rc3Run, Mahdibland, AwesomeVPN]
-    filter: "🇨🇱|(^|[\\s\\-|\\[(])CL([\\s\\-|\\])/]|$)|^cl\\||(^|[\\s\\-|\\[(])Chile([\\s\\-|\\])/]|$)"
+    filter: "🇸🇨|(^|[\\s\\-|\\[(])SC([\\s\\-|\\])/]|$)|^sc\\||(^|[\\s\\-|\\[(])Seychelles([\\s\\-|\\])/]|$)"
     url: "https://www.gstatic.com/generate_204"
     expected-status: 204
     interval: 1800
@@ -1161,21 +1052,10 @@ proxy-groups:
     tolerance: 50
     max-failed-times: 3
     lazy: true
-  - name: "Azerbaijan"
+  - name: "Norway"
     type: url-test
-    use: [Rooster, Mahdi0024, Snakem982, PuddinCat, Radikal-fast, F0rc3Run, Mahdibland, AwesomeVPN, Au1rxx-AZ]
-    filter: "🇦🇿|(^|[\\s\\-|\\[(])AZ([\\s\\-|\\])/]|$)|^az\\||(^|[\\s\\-|\\[(])Azerbaijan([\\s\\-|\\])/]|$)"
-    url: "https://www.gstatic.com/generate_204"
-    expected-status: 204
-    interval: 1800
-    timeout: 2000
-    tolerance: 50
-    max-failed-times: 3
-    lazy: true
-  - name: "Philippines"
-    type: url-test
-    use: [Rooster, Mahdi0024, Snakem982, PuddinCat, Radikal-fast, F0rc3Run, Mahdibland, AwesomeVPN, Au1rxx-PH]
-    filter: "🇵🇭|(^|[\\s\\-|\\[(])PH([\\s\\-|\\])/]|$)|^ph\\||(^|[\\s\\-|\\[(])Philippines([\\s\\-|\\])/]|$)"
+    use: [Rooster, Mahdi0024, Snakem982, PuddinCat, Radikal-fast, F0rc3Run, Mahdibland, AwesomeVPN]
+    filter: "🇳🇴|(^|[\\s\\-|\\[(])NO([\\s\\-|\\])/]|$)|^no\\||(^|[\\s\\-|\\[(])Norway([\\s\\-|\\])/]|$)"
     url: "https://www.gstatic.com/generate_204"
     expected-status: 204
     interval: 1800
